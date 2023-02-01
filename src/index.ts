@@ -1,3 +1,8 @@
-const curso: string = "Design Patterns com TypeScript";
+import Client from "./client";
+import Notify from "./notify";
 
-console.log(curso);
+const cliente = new Client();
+const notificacao= new Notify(cliente);
+
+
+notificacao.sendEmail();
