@@ -1,5 +1,5 @@
-import Car from "./vehicles/Car";
-import Motorcycle from "./vehicles/Motorcycle";
+import Payment from "./payment/Payment";
 
-const car = new Car("Azul", 2022, 2.6, 4);
-const motorcycle = new Motorcycle("Branca", 2022, 250);
+const payment = new Payment();
+
+payment.pay("250");
